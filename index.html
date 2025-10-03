@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    * {margin:0; padding:0; box-sizing:border-box; font-family:Arial, sans-serif;}
+    body {line-height:1.6; color:#333;}
+    header {background:#111; color:#fff; padding:40px 20px; text-align:center;}
+    header h1 {font-size:2.5rem;}
+    header p {font-size:1.2rem; margin-top:10px;}
+    nav {background:#222; display:flex; justify-content:center;}
+    nav a {color:#fff; padding:14px 20px; text-decoration:none; transition:0.3s;}
+    nav a:hover {background:#444;}
+    section {padding:50px 20px; max-width:1000px; margin:auto;}
+    h2 {text-align:center; margin-bottom:30px; font-size:2rem; color:#111;}
+    .about, .projects, .contact {margin-bottom:50px;}
+    .projects-grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
+    .project {border:1px solid #ddd; padding:20px; border-radius:8px; transition:0.3s;}
+    .project:hover {box-shadow:0 4px 12px rgba(0,0,0,0.15);}
+    footer {background:#111; color:#fff; text-align:center; padding:20px; margin-top:20px;}
+    footer a {color:#0af; text-decoration:none;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>John Doe</h1>
+    <p>Web Developer | Designer | Problem Solver</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m John, a passionate web developer skilled in creating clean and modern websites. I enjoy solving problems, learning new technologies, and building meaningful digital experiences.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project">
+        <h3>Project One</h3>
+        <p>A responsive website built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>Project Two</h3>
+        <p>A portfolio design showcasing creative and functional layouts.</p>
+      </div>
+      <div class="project">
+        <h3>Project Three</h3>
+        <p>A simple web app demonstrating API integration.</p>
+      </div>
+    </div>
+  </section>
